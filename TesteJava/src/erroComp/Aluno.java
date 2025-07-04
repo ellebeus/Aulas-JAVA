@@ -14,7 +14,7 @@ public class Aluno {
 
     public void gerarMatricula() {
         Random random = new Random();
-        this.matricula = "Matricula: " + random.nextInt(CONT_MAT);
+        this.matricula = "" + random.nextInt(CONT_MAT);
     }
 
     public String getNome() {
@@ -32,9 +32,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno [nome=" + nome + ", matricula=" + matricula + "]";
+        return "Aluno: " + nome + ", Matricula: " + matricula;
     }
-
-    
 
 }
