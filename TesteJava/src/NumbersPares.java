@@ -8,7 +8,7 @@ public class NumbersPares {
         ArrayList<Integer> numeros = new ArrayList<>();
 
         // 1. Avise o usuário e armazene os números
-        System.out.println("Insira uma lista de números inteiros. '-1' Para encerrar.");
+        System.out.println("Insira uma lista de números inteiros. Digite '-1' Para encerrar.");
 
         int numero;
         do {
